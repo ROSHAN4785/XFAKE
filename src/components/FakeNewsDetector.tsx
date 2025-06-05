@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Newspaper, AlertTriangle, CheckCircle, Loader2 } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 
-const genAI = new GoogleGenerativeAI("AIzaSyD_MzbcVf7HlCHzJRQJoByKAgf9w9x-HBo");
+const genAI = new GoogleGenerativeAI("use api key");
 
 interface AnalysisResult {
   prediction: 'Real' | 'Fake' | null;
